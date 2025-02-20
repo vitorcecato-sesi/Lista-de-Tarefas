@@ -1,12 +1,12 @@
 .boxTarefa {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    gap: 5vw;
     border:1.5px solid black;
     border-radius: 0.2vw;
     padding: 1vw;
-    width: 28vw;
+    width: 25vw;
     font-size: 1.2em;
 }
 
@@ -16,7 +16,7 @@
     cursor: pointer;
     color: white;
     border-style: none;
-    width: 12vw;
+    width: 8vw;
     height: 5vh;
     border-radius: 0.3vw;
 }
@@ -26,10 +26,9 @@
     cursor: not-allowed;
     background-color: #ccc;
     border-style: none;
-    width: 12vw;
+    width: 8vw;
     height: 5vh;
     border-radius: 0.3vw;
-
 }
 
 .feitoTexto {
