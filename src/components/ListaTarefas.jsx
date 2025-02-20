@@ -1,4 +1,4 @@
-import "./ListaTarefas.css"
+import "./ListaTarefas.css" 
 import Tarefa from "./Tarefa"
 
 function ListaTarefas () {
