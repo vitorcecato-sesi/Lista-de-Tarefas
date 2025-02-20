@@ -18,8 +18,10 @@ function App() {
     <>
       {/* Header */}
       <Header/>
-
-      <ListaTarefas />
+      
+      <section className='meio'>
+        <ListaTarefas />
+      </section>
 
       {/* Footer */}
       <Footer
