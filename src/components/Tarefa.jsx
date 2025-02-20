@@ -20,12 +20,14 @@ function Tarefa(props){
     return(
 
         <>
+    <section className="boxTarefa">
             {/* Imagem com a foto da tarefa */}
-            <img className="" src={props.foto}></img>
+            <img className="imagemTarefa" src={props.foto}></img>
             {/* Título da tarefa */}
-            <h5>{props.objetivo}</h5>
+            <h5 className={cor ? "feitoTexto" : "aFazerTexto"}>{props.objetivo}</h5>
             {/* Botão para concluir a tarefa */}
-            <button className={cor ? 'feito' : 'aFazer'} onClick={(concluirTarefa)}>{concluir}</button>
+            <button className={cor ? "feito" : "aFazer"} onClick={(concluirTarefa)}>{concluir}</button>
+    </section>
        
         </>
 
