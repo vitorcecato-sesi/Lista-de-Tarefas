@@ -6,7 +6,7 @@ function ListaTarefas () {
     return (
         <>
          
-         <section  >
+         <section className="container-Lista" >
         <h1>Tarefas do Dia </h1>
          <Tarefa
          foto = "https://www.shutterstock.com/image-photo/child-diligently-making-bed-clean-600nw-2428456793.jpg"
