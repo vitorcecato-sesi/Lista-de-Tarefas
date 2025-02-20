@@ -3,6 +3,7 @@ import './App.css'
 // Componentes
   import Header from "./components/Header"
   import Footer from "./components/Footer"
+  import ListaTarefas from './components/ListaTarefas'
 //.
 
 // Fotos
@@ -18,6 +19,8 @@ function App() {
       {/* Header */}
       <Header/>
 
+      <ListaTarefas />
+
       {/* Footer */}
       <Footer
         imagem1={foto} 
@@ -30,5 +33,5 @@ function App() {
     </>
   )
 }
-
+ 
 export default App
