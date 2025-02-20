@@ -8,12 +8,13 @@
     display: flex;
     background-color: #CEE741;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
     color: #442b19;
-    padding-left: 15em;
 }
 
 h1 {
+    text-shadow: 0px 0px 40px black;
     transition: all 1s ease;
 }
 
@@ -25,13 +26,27 @@ h1 {
 
 .imagem {
     width: 10vw;
-    height: 18vh;
+    height: 19vh;
     filter: drop-shadow(0px 0px 12px rgb(85, 85, 85));
     transition: all 1s ease;
-    padding-left: 7em;
 }
 
 .imagem:hover {
+    transform: scale(1.1);
+    /* Aumenta o tamanho da imagem */
+    transition: all 1s ease;
+    /* Tempo de transição */
+}
+
+.imagem-git {
+    width: 3vw;
+    height: auto;
+    padding-right: 3em;
+    transition: all 1s ease;
+    filter: drop-shadow(0px 0px 20px rgb(85, 85, 85));
+}
+
+.imagem-git:hover {
     transform: scale(1.1);
     /* Aumenta o tamanho da imagem */
     transition: all 1s ease;
