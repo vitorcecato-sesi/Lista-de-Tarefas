@@ -12,9 +12,6 @@ function ListaTarefas () {
          tarefa = "Arrumar a cama "
 
          img = ""
-         tarefa " Limpar o quarto "
-
-         img = ""
          tarefa = " Lavar a louça "
 
          img = ""
@@ -25,6 +22,9 @@ function ListaTarefas () {
          
          img = ""
          tarefa = "Estudar"
+
+         img = ""
+         tarefa " Tomar banho  "
 
         </>
     )
