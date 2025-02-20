@@ -1,5 +1,4 @@
 import './App.css'
-import Tarefa from './components/Tarefa'
 
 // Componentes
   import Header from "./components/Header"
