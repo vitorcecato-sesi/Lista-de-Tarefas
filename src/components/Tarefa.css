@@ -1,0 +1,49 @@
+.boxTarefa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5vw;
+    border:#ccc solid 1px;
+    border-radius: 0.2vw;
+    padding: 1vw;
+    width: 25vw;
+}
+
+.aFazer {
+    transition: 0.5ms;
+    background-color: green;
+    cursor: pointer;
+    color: white;
+    border-style: none;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 0.3vw;
+}
+
+.feito {
+    transition: 0.3s;
+    cursor: not-allowed;
+    background-color: #ccc;
+    border-style: none;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 0.3vw;
+
+}
+
+.feitoTexto {
+    transition: 0.2s;
+    color: rgb(95, 157, 2);
+    text-decoration:line-through;
+}
+
+.aFazerTexto {
+    transition: 0.5ms;
+    color: black;
+}
+
+.imagemTarefa {
+ width: 4vw;
+ height: 3vw;
+ border-radius: 50%;
+}

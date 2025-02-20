@@ -6,13 +6,15 @@ function Tarefa(props){
     const [cor, setCor] = useState(false);
     function concluirTarefa(){
         setConcluir("Feito")
-        setCor(true)
+        setCor(true )
     }
 return(
     <>
-<img className="" src={props.foto}></img>
-    <h5>{props.objetivo}</h5>
-    <button className={cor ? 'feito' : 'aFazer'} onClick={(concluirTarefa)}>{concluir}</button>
+    <section className="boxTarefa">
+<img className="imagemTarefa" src={props.foto}></img>
+    <h5 className={cor ? "feitoTexto" : "aFazerTexto"}>{props.objetivo}</h5>
+    <button className={cor ? "feito" : "aFazer"} onClick={(concluirTarefa)}>{concluir}</button>
+    </section>
        
     </>
 
