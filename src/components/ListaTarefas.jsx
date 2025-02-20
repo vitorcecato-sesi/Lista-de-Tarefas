@@ -1,5 +1,6 @@
 import {useState} from "react"
 import "./ListaTarefas.css"
+import Tarefa from "./Tarefa"
 
 function ListaTarefas () {
     const [lista,setLista] = useState()
@@ -7,24 +8,38 @@ function ListaTarefas () {
     return (
         <>
          
-         titulo= " Tarefas do Dia "
-         img = ""
-         tarefa = "Arrumar a cama "
+         <section  >
+        <h1>Tarefas do Dia </h1>
+         <Tarefa
+         foto = ""
+         objetivo = "Arrumar a cama "
+         />
 
-         img = ""
-         tarefa = " Lavar a louça "
+        <Tarefa
+         foto = ""
+         objetivo = " Lavar a louça "
+         />
 
-         img = ""
-         tarefa = " Varrer a casa "
+        <Tarefa
+         foto = ""
+         objetivo = " Varrer a casa "
+        />
 
-         img = ""
-         tarefa = " Passar pano no chão"
-         
-         img = ""
-         tarefa = "Estudar"
+        <Tarefa
+         foto = ""
+         objetivo = " Passar pano no chão"
+         />
 
-         img = ""
-         tarefa " Tomar banho  "
+         <Tarefa
+         foto = ""
+         objetivo = "Estudar"
+         />
+
+        <Tarefa
+         foto = ""
+         objetivo = " Tomar banho  "
+         />
+         </section>
 
         </>
     )
