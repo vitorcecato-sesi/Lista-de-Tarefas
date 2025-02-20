@@ -6,7 +6,7 @@
     border:#ccc solid 1px;
     border-radius: 0.2vw;
     padding: 1vw;
-    width: 25vw;
+    width: 28vw;
 }
 
 .aFazer {
@@ -15,7 +15,7 @@
     cursor: pointer;
     color: white;
     border-style: none;
-    width: 10vw;
+    width: 12vw;
     height: 5vh;
     border-radius: 0.3vw;
 }
@@ -25,7 +25,7 @@
     cursor: not-allowed;
     background-color: #ccc;
     border-style: none;
-    width: 10vw;
+    width: 12vw;
     height: 5vh;
     border-radius: 0.3vw;
 
@@ -45,5 +45,5 @@
 .imagemTarefa {
  width: 4vw;
  height: 3vw;
- border-radius: 50%;
+ border-radius: 2em;
 }
